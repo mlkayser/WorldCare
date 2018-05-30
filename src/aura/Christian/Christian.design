@@ -1,0 +1,4 @@
+<design:component label="Christian">
+    <design:attribute name="clientBrandedBackground" label="Client Brand Styleguide Background"/>
+    <design:attribute name="clientLogo" label="Client Specific Logo"/>
+</design:component>

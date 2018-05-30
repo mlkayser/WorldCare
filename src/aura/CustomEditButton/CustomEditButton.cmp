@@ -1,0 +1,13 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,force:hasRecordId" access="global"  controller="CustomEditButtonController">
+   
+     <aura:attribute name="recordId" type="Id" />
+    
+    <div class="ui-widget">
+        <div class="createRecordWrapper forceCommunityCreateRecordButton" data-aura-rendered-by="1:751;a" data-aura-class="forceCommunityCreateRecordButton">
+            <button class="slds-button slds-button--brand actionButton uiButton" onclick="{!'https://worldcare.force.com/members/s/account?recordId=' + v.recordId}"  aria-live="off" type="button" data-aura-rendered-by="5:751;a" data-aura-class="uiButton">
+                <span class=" label bBody truncate" dir="ltr" data-aura-rendered-by="10:751;a">Patient Registration</span>
+            </button>       
+             
+        </div>
+    </div>
+</aura:component>

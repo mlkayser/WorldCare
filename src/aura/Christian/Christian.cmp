@@ -1,0 +1,35 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" description="Christian/Yendry Testing ">
+    <aura:attribute name="search" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="profileMenu" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="navBar" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="universalFooter" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="clientBrandedBackground" type="Boolean" default="false"/> 
+    <aura:attribute name="clientLogo" type="Boolean" default="false" />
+    <div>
+        <div class="topMastRegion">
+            <div class="container_inner">
+                <div class="universalBrand"><img src="{!$Resource.worldcarelogo}"/></div>
+                
+		        <div class="searchRegion">{!v.search}</div>
+                <div class="profileMenu">{!v.profileMenu}</div>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="container_inner">{!v.navBar}</div>
+        </div>
+        <div class="mainContentArea">
+            <div class="container_inner">{!v.body}</div>
+        </div>
+        <div class="universalFooter">
+            <div class="container_inner">
+                {!v.universalFooter}
+            </div>
+            <div class="copyRight">
+                <div class="copyRightText"> 
+                    &copy; Copyright 2017 Worldcare International, Inc.
+                </div> 
+            </div>
+        </div>
+
+    </div>
+</aura:component>

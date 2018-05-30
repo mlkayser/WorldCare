@@ -1,0 +1,21 @@
+/* Register and Login Styles */
+
+.THIS .salesforceIdentityLoginBody2 .cCenterPanel#centerPanel {
+    min-width: 280px !important;
+    max-width: 960px !important;
+    border: 1px solid red;
+}
+
+.THIS .salesforceIdentityLoginBody2 #content h2 {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    color: #800080 !important;
+}
+
+.THIS .salesforceIdentityLoginBody2 .ui-widget {
+    padding-bottom: 0 !important;
+}
+
+.THIS #sfdc_forgot a {
+    color: #800080 !important;
+}

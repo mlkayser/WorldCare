@@ -1,0 +1,54 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" description="WorldCare Master Default" 
+                controller="customProfileMenuController">
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+	<aura:attribute name="runningUser" type="User" />
+    <aura:attribute name="profileMenu" type="Aura.Component[]" required="false"/>    
+
+    <aura:attribute name="resourceURL" type="String"/>
+	<aura:attribute name="communityLogo" type="String" default="worldcarelogo" />
+    <aura:attribute name="navBar" type="Aura.Component[]" required="false"/>
+
+	<aura:attribute name="footerText" type="String" default="Worldcare International, Inc." />
+    <aura:attribute name="copyrightDate" type="Date" />
+    
+    <div class="pageWrapper">
+		<header>
+            <div class="topMastRegion">
+                <div class="container_inner">
+                    <div class="slds-grid slds-wrap slds-grid_vertical-align-end">                        
+                        
+                        <div class="logo slds-col slds-size_1-of-1 slds-medium-size_6-of-12">
+                            <aura:if isTrue="{!v.runningUser.Logout_URL__c != null}">
+                                <a href="{!v.runningUser.Logout_URL__c}" title="Back to NaviGo">
+                                    <img src="{! v.resourceURL + '/' + v.communityLogo}"/>                        
+                                </a>                       
+                                <aura:set attribute="else">
+                                    <img src="{! v.resourceURL + '/' + v.communityLogo}"/>                                                        </aura:set>                            
+                         	</aura:if>
+                        </div>   
+                        
+                        <div class="profileMenu slds-col slds-size_1-of-1 slds-medium-size_6-of-12">
+                            {!v.profileMenu}
+                       	</div>
+                        
+                	</div>
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="container_inner">{!v.navBar}</div>
+            </div>    
+        </header>
+        <div class="content">
+            <div class="container_inner">{!v.body}</div>
+        </div>            
+        <footer>
+            <div class="copyRight">
+                <div class="copyRightText"> 
+                    Copyright &copy; {!v.copyrightDate} - {!v.footerText} - All Rights Reserved
+                </div> 
+            </div>
+        </footer>        
+    </div>
+    
+</aura:component>

@@ -1,0 +1,1 @@
+<apex:page standardController="Shipment__c"  extensions="skuid.Redirects" action="{!redirect}&objectType=Shipment__c&actionType=New">  </apex:page>

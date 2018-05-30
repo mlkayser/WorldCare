@@ -1,0 +1,4 @@
+<design:component >
+	<design:attribute name="profileLabel" label="Profile Label" />
+    <design:attribute name="profileShow" label="Show profile" />
+</design:component>

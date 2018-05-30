@@ -1,0 +1,3 @@
+<design:component label="WorldCare_Login">
+	<design:attribute name="footerText" label="Footer Text"/>
+</design:component>

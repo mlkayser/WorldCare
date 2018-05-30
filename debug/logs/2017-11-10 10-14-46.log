@@ -1,0 +1,35 @@
+41.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+10:14:46.0 (77354)|USER_INFO|[EXTERNAL]|005E0000004yLLO|worldcare@sadhanaconsulting.com.devfull|Eastern Standard Time|GMT-05:00
+10:14:46.0 (121658)|EXECUTION_STARTED
+10:14:46.0 (127326)|CODE_UNIT_STARTED|[EXTERNAL]|VisualForce View State
+10:14:46.0 (7765350)|CODE_UNIT_FINISHED|VisualForce View State
+10:14:46.0 (9024199)|EXECUTION_FINISHED
+10:14:46.26 (26051287)|USER_INFO|[EXTERNAL]|005E0000004yLLO|worldcare@sadhanaconsulting.com.devfull|Eastern Standard Time|GMT-05:00
+10:14:46.26 (26074306)|EXECUTION_STARTED
+10:14:46.26 (26079715)|CODE_UNIT_STARTED|[EXTERNAL]|VF: /apex/viewApexPage.apexp
+10:14:46.31 (31896377)|CUMULATIVE_LIMIT_USAGE
+10:14:46.31 (31896377)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+10:14:46.31 (31896377)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+10:14:46.31 (31896377)|CUMULATIVE_LIMIT_USAGE_END
+
+10:14:46.26 (31946185)|CODE_UNIT_FINISHED|VF: /apex/viewApexPage.apexp
+10:14:46.26 (33052980)|EXECUTION_FINISHED
+10:14:46.34 (34764227)|CUMULATIVE_PROFILING_BEGIN
+10:14:46.34 (34764227)|CUMULATIVE_PROFILING|No profiling information for SOQL operations
+10:14:46.34 (34764227)|CUMULATIVE_PROFILING|No profiling information for SOSL operations
+10:14:46.34 (34764227)|CUMULATIVE_PROFILING|No profiling information for DML operations
+10:14:46.34 (34764227)|CUMULATIVE_PROFILING|No profiling information for method invocations
+10:14:46.34 (34764227)|CUMULATIVE_PROFILING_END

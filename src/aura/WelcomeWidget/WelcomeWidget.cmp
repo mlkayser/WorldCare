@@ -1,0 +1,14 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" controller="WelcomeWidgetController">
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="account" type="Account"/>
+    <aura:attribute name="FirstHeading" type="String" default="Welcome, " access="global" />
+    
+    <div class="box"> 
+		<h2 class="heading">{!v.FirstHeading} {!v.account.Name}!</h2>
+        <p>
+            <span class="label">MRN Number: </span><span>{!v.account.MRN__c}</span>
+    	</p> 
+    </div>
+    
+</aura:component>

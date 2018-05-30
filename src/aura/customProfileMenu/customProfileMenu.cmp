@@ -1,0 +1,20 @@
+<aura:component implements="forceCommunity:profileMenuInterface" controller="customProfileMenuController">
+	<aura:attribute name="runningUser" type="User" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <!--aura:attribute name="options" type="String[]" default="Patient Profile, Logout"/-->
+    <aura:attribute name="profileShow" type="Boolean" required="false" default="true"/>
+    <aura:attribute name="profileLabel" type="String" default="My Profile" required="false"/>
+  
+    <div class="selfServiceUserProfileMenu">	
+        <ui:menu >
+            <ui:menuTriggerLink aura:id="trigger" label="{!v.runningUser.Name + ' &#9662;'}"/>
+            <ui:menuList class="actionMenu colorTextLink" aura:id="actionMenu">
+				<aura:if isTrue="{!v.profileShow}">
+                	<ui:actionMenuItem label="{!v.profileLabel}" click="{!c.handleClick}"/>
+                </aura:if>
+                <ui:actionMenuItem label="Logout" click="{!c.handleClick}"/>
+            </ui:menuList>
+        </ui:menu>
+    </div>
+</aura:component>

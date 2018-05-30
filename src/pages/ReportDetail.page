@@ -1,0 +1,123 @@
+<apex:page Controller="GetReportDetail" showHeader="false" standardstylesheets="false" sidebar="false" >
+   <apex:stylesheet value="{!$Site.Prefix}/communities/CommunitiesStyles.css"/>
+    
+    <style type="text/css">
+        
+        h1 { font-weight: bold;font-weight: 400;
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.25;
+        color: rgb(119, 119, 119);
+        font-family: 'Montserrat', sans-serif !important;}
+       
+        headerRow .headerStyle{
+        background-color: #ffffff;
+        color: #7f9339;
+        border: #8a8ab3 1px solid;
+        text-align: left;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif !important;
+        line-height: 18px;
+        font-size: 14px;
+        height: 10px;} 
+        
+        table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        background-color: rgb(255, 255, 255);
+        width: auto;
+        border-color: rgb(138, 138, 179);
+        border:0.8px solid black;
+        display: table;}
+        
+        th {
+        vertical-align: bottom;
+        border: rgb(138, 138, 179) 1px solid;
+        position: relative;
+        padding: 0 0;
+        line-height: 18px;
+        text-align: left;
+        text-transform: uppercase;
+        font-weight: normal;
+        vertical-align: top;
+        padding: .35rem .35rem;
+        background-color: #ffffff;
+        color: rgb(147, 57, 127);
+        font-family: 'Montserrat', sans-serif !important;
+        font-size: 12px;
+        style: normal;
+        width: auto;}
+        
+        tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+        font-size: 12px;
+        line-height: 18px;
+        font-family: 'Montserrat', sans-serif !important;
+        style: normal;
+        width: auto;}
+        
+        td {
+        border: 1px solid rgb(138, 138, 179);
+        color: rgb(119, 119, 119);
+        empty-cells: show;
+        vertical-align: top;
+        padding: .35rem .35rem;
+        text-align: left;
+        display: table-cell;
+        font-size: 12px;
+        line-height: 18px;
+        font-family: 'Montserrat', sans-serif !important;
+        style: normal;}
+        
+        .reportsMetricsHeader {
+        display: block;
+        border-bottom: solid 1px rgb(138, 138, 179);
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;}
+        
+        a {color: rgb(37, 116, 169);}
+        
+        tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit;}
+    
+    </style>
+
+    <div>
+        <h1 class="reportTitle" title="My Second Opinion Cases">My Second Opinion Cases</h1>
+        <span data-aura-rendered-by="582:0" class="reportsMetricsHeader" data-aura-class="reportsMetricsHeader" data-animationdone="true"></span>
+    </div>
+    <br/> 
+    <br/> 
+  
+    <apex:pageBlock >
+        <apex:pageBlockTable value="{!Records}" var="Record" headerClass="headerRow" style="width: 982px;"> 
+            <apex:column > 
+                <apex:facet name="header">Subject</apex:facet> 
+                <apex:outputLink style="text-decoration:none" value="{! $Site.CurrentSiteUrl +'s/case/'+ Record.Id}">{!Record.Subject}</apex:outputLink>
+            </apex:column>
+            <apex:column > 
+                <apex:facet name="header">Initial Diagnosis</apex:facet> 
+                <apex:outputText value="{!Record.Initial_Diagnosis__c}"/> 
+            </apex:column>
+            <apex:column width="120px"> 
+                <apex:facet name="header">Status</apex:facet> 
+                <apex:outputText value="{!Record.Status}"/> 
+            </apex:column>
+            <apex:column width="130px"> 
+                <apex:facet name="header">Date/Time Opened</apex:facet> 
+                <apex:outputText value="{0, date, MM'/'d'/'yyyy hh:mm a}">
+                    <apex:param value="{!Record.CreatedDate}" />
+                </apex:outputText>
+            </apex:column>
+        </apex:pageBlockTable> 
+         
+    </apex:pageBlock> 
+
+    
+</apex:page>

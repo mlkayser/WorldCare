@@ -1,0 +1,29 @@
+.THIS {
+    text-align:right;
+}
+.THIS a {
+    text-transform: uppercase;
+}
+.THIS a:hover, .THIS a:active {
+    text-decoration:none;
+}
+.THIS .uiPopupTrigger a {
+}
+.THIS .popupTargetContainer {    
+}
+.THIS .popupTargetContainer .actionMenu {
+    display:inline-block;
+    width:100%;
+    float:right;
+}
+.THIS .actionMenu ul {
+    display:inline-block;
+    width:100%;
+}
+.THIS .uiMenuList--default.uiMenuList {
+    right:0;
+    transform: translateX(-3%);
+    padding:0;
+}
+.THIS .uiPopupTarget {
+}

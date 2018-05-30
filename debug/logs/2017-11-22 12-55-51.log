@@ -1,0 +1,485 @@
+41.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+12:55:50.0 (72155)|USER_INFO|[EXTERNAL]|005E0000004yLLO|worldcare@sadhanaconsulting.com.devfull|Eastern Standard Time|GMT-05:00
+12:55:50.0 (110083)|EXECUTION_STARTED
+12:55:50.0 (114790)|CODE_UNIT_STARTED|[EXTERNAL]|01pV0000000LQkD|portalUser.CreateNewUser
+12:55:50.0 (401020)|HEAP_ALLOCATE|[72]|Bytes:3
+12:55:50.0 (455308)|HEAP_ALLOCATE|[77]|Bytes:152
+12:55:50.0 (476936)|HEAP_ALLOCATE|[342]|Bytes:408
+12:55:50.0 (497949)|HEAP_ALLOCATE|[355]|Bytes:408
+12:55:50.0 (518449)|HEAP_ALLOCATE|[467]|Bytes:48
+12:55:50.0 (554359)|HEAP_ALLOCATE|[139]|Bytes:6
+12:55:50.0 (618768)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:252
+12:55:50.0 (627901)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:25
+12:55:50.0 (639332)|SYSTEM_METHOD_ENTRY|[1]|RestRequest.RestRequest()
+12:55:50.0 (645107)|STATEMENT_EXECUTE|[1]
+12:55:50.0 (657151)|SYSTEM_METHOD_EXIT|[1]|RestRequest
+12:55:50.0 (666633)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+12:55:50.0 (691973)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+12:55:50.0 (696605)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+12:55:50.0 (704385)|VARIABLE_SCOPE_BEGIN|[16]|this|System.RestRequest|true|false
+12:55:50.0 (772305)|VARIABLE_ASSIGNMENT|[16]|this|{}|0x2c6a6172
+12:55:50.0 (780611)|VARIABLE_SCOPE_BEGIN|[16]|request|java:com.force.swag.rest.RestRequest|true|false
+12:55:50.0 (943436)|VARIABLE_ASSIGNMENT|[16]|request|"com.force.swag.rest.RestRequestServletImpl@1f452092"|0x1f452092
+12:55:50.0 (953998)|VARIABLE_SCOPE_BEGIN|[16]|urlMapping|String|false|false
+12:55:50.0 (964960)|VARIABLE_ASSIGNMENT|[16]|urlMapping|"/User/*"
+12:55:50.0 (1483673)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+12:55:50.0 (1492688)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:6
+12:55:50.0 (1496226)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:3
+12:55:50.0 (1502602)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+12:55:50.0 (1539744)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x941c0eb","httpMethod":"POST","params":"0x1d0a9c0a","remoteAddress":"198.46.82.32","requestURI":"/User","resourcePath":"/services/apexrest/U (5 more) ..."}|0x2c6a6172
+12:55:50.0 (1549238)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+12:55:50.0 (1557107)|VARIABLE_ASSIGNMENT|[28]|name|"Accept"
+12:55:50.0 (1561071)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+12:55:50.0 (1569786)|VARIABLE_ASSIGNMENT|[28]|value|"\u002A/*"
+12:55:50.0 (1676518)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+12:55:50.0 (1683768)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:11
+12:55:50.0 (1687275)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:44
+12:55:50.0 (1691904)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+12:55:50.0 (1723008)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x941c0eb","httpMethod":"POST","params":"0x1d0a9c0a","remoteAddress":"198.46.82.32","requestURI":"/User","resourcePath":"/services/apexrest/U (5 more) ..."}|0x2c6a6172
+12:55:50.0 (1730877)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+12:55:50.0 (1738171)|VARIABLE_ASSIGNMENT|[28]|name|"CipherSuite"
+12:55:50.0 (1741860)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+12:55:50.0 (1749284)|VARIABLE_ASSIGNMENT|[28]|value|"ECDHE-RSA-AES256-GCM (24 more) ..."
+12:55:50.0 (1801755)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+12:55:50.0 (1808291)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+12:55:50.0 (1811619)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:19
+12:55:50.0 (1816038)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+12:55:50.0 (1844721)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x941c0eb","httpMethod":"POST","params":"0x1d0a9c0a","remoteAddress":"198.46.82.32","requestURI":"/User","resourcePath":"/services/apexrest/U (5 more) ..."}|0x2c6a6172
+12:55:50.0 (1852997)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+12:55:50.0 (1860349)|VARIABLE_ASSIGNMENT|[28]|name|"Host"
+12:55:50.0 (1864120)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+12:55:50.0 (1870802)|VARIABLE_ASSIGNMENT|[28]|value|"cs12.salesforce.com"
+12:55:50.0 (1922465)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+12:55:50.0 (1929047)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+12:55:50.0 (1932105)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+12:55:50.0 (1936419)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+12:55:50.0 (1964985)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x941c0eb","httpMethod":"POST","params":"0x1d0a9c0a","remoteAddress":"198.46.82.32","requestURI":"/User","resourcePath":"/services/apexrest/U (5 more) ..."}|0x2c6a6172
+12:55:50.0 (1972611)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+12:55:50.0 (1980229)|VARIABLE_ASSIGNMENT|[28]|name|"X-Salesforce-SIP"
+12:55:50.0 (1984554)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+12:55:50.0 (1991112)|VARIABLE_ASSIGNMENT|[28]|value|"198.46.82.32"
+12:55:50.0 (2041836)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+12:55:50.0 (2048873)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+12:55:50.0 (2051875)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+12:55:50.0 (2056224)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+12:55:50.0 (2084472)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x941c0eb","httpMethod":"POST","params":"0x1d0a9c0a","remoteAddress":"198.46.82.32","requestURI":"/User","resourcePath":"/services/apexrest/U (5 more) ..."}|0x2c6a6172
+12:55:50.0 (2092409)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+12:55:50.0 (2099399)|VARIABLE_ASSIGNMENT|[28]|name|"Content-Type"
+12:55:50.0 (2103020)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+12:55:50.0 (2109864)|VARIABLE_ASSIGNMENT|[28]|value|"application/json"
+12:55:50.0 (2208998)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:156
+12:55:50.0 (2218052)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:10
+12:55:50.0 (2227619)|SYSTEM_METHOD_ENTRY|[1]|RestResponse.RestResponse()
+12:55:50.0 (2231625)|STATEMENT_EXECUTE|[1]
+12:55:50.0 (2237903)|SYSTEM_METHOD_EXIT|[1]|RestResponse
+12:55:50.0 (2244338)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+12:55:50.0 (2249913)|VARIABLE_SCOPE_BEGIN|[7]|this|System.RestResponse|true|false
+12:55:50.0 (2271446)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x62140f28
+12:55:50.0 (2409652)|VARIABLE_SCOPE_BEGIN|[4]|RestContext.request|System.RestRequest|true|true
+12:55:50.0 (2420612)|VARIABLE_SCOPE_BEGIN|[5]|RestContext.response|System.RestResponse|true|true
+12:55:50.0 (2430947)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:112
+12:55:50.0 (2437184)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+12:55:50.0 (2445358)|SYSTEM_METHOD_ENTRY|[2]|RestContext.RestContext()
+12:55:50.0 (2449126)|STATEMENT_EXECUTE|[2]
+12:55:50.0 (2455356)|SYSTEM_METHOD_EXIT|[2]|RestContext
+12:55:50.0 (2462686)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+12:55:50.0 (2495948)|VARIABLE_ASSIGNMENT|[EXTERNAL]|RestContext.request|{"headers":"0x941c0eb","httpMethod":"POST","params":"0x1d0a9c0a","remoteAddress":"198.46.82.32","requestURI":"/User","resourcePath":"/services/apexrest/U (5 more) ..."}|0x2c6a6172
+12:55:50.0 (2514007)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+12:55:50.0 (2534521)|VARIABLE_ASSIGNMENT|[EXTERNAL]|RestContext.response|{"headers":"0x54e3f248"}|0x62140f28
+12:55:50.0 (2668908)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+12:55:50.0 (2707781)|METHOD_ENTRY|[2]|01pV0000000LQkD|portalUser.portalUser()
+12:55:50.0 (2714036)|STATEMENT_EXECUTE|[2]
+12:55:50.0 (2718135)|STATEMENT_EXECUTE|[2]
+12:55:50.0 (3120604)|SYSTEM_MODE_ENTER|false
+12:55:50.0 (3141124)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+12:55:50.0 (3153644)|SYSTEM_MODE_EXIT|false
+12:55:50.0 (3163071)|METHOD_EXIT|[2]|portalUser
+12:55:50.0 (3169609)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+12:55:50.0 (3172876)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:6
+12:55:50.0 (3175779)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:14
+12:55:50.0 (3178795)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:25
+12:55:50.0 (3181586)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+12:55:50.0 (3381697)|VARIABLE_SCOPE_BEGIN|[28]|UID|String|false|false
+12:55:50.0 (3395705)|VARIABLE_ASSIGNMENT|[28]|UID|"MLK-001"
+12:55:50.0 (3400712)|VARIABLE_SCOPE_BEGIN|[28]|lastName|String|false|false
+12:55:50.0 (3407614)|VARIABLE_ASSIGNMENT|[28]|lastName|"Kayser"
+12:55:50.0 (3412031)|VARIABLE_SCOPE_BEGIN|[28]|firstName|String|false|false
+12:55:50.0 (3418629)|VARIABLE_ASSIGNMENT|[28]|firstName|"Manuela-Tester"
+12:55:50.0 (3422814)|VARIABLE_SCOPE_BEGIN|[28]|email|String|false|false
+12:55:50.0 (3430828)|VARIABLE_ASSIGNMENT|[28]|email|"manuela.lkayser@gmai (5 more) ..."
+12:55:50.0 (3435255)|VARIABLE_SCOPE_BEGIN|[28]|password|String|false|false
+12:55:50.0 (3441704)|VARIABLE_ASSIGNMENT|[28]|password|"test-123"
+12:55:50.0 (3462835)|SYSTEM_MODE_ENTER|false
+12:55:50.0 (3471928)|HEAP_ALLOCATE|[30]|Bytes:5
+12:55:50.0 (3478051)|STATEMENT_EXECUTE|[28]
+12:55:50.0 (3479544)|STATEMENT_EXECUTE|[30]
+12:55:50.0 (3484805)|VARIABLE_SCOPE_BEGIN|[30]|message|String|false|false
+12:55:50.0 (3495503)|VARIABLE_ASSIGNMENT|[30]|message|""
+12:55:50.0 (3499786)|STATEMENT_EXECUTE|[33]
+12:55:50.0 (3502090)|HEAP_ALLOCATE|[33]|Bytes:69
+12:55:50.0 (3518315)|HEAP_ALLOCATE|[33]|Bytes:4
+12:55:50.0 (3532186)|HEAP_ALLOCATE|[33]|Bytes:7
+12:55:50.0 (3845550)|SOQL_EXECUTE_BEGIN|[33]|Aggregations:0|SELECT Id FROM Account WHERE Source_Partner_UID__c = :tmpVar1 LIMIT 1
+12:55:50.0 (3863874)|LIMIT_USAGE|[33]|SOQL|1|100
+12:55:50.0 (3878836)|LIMIT_USAGE|[33]|AGGS|0|300
+12:55:50.0 (6477589)|SOQL_EXECUTE_END|[33]|Rows:1
+12:55:50.0 (6489363)|LIMIT_USAGE|[33]|SOQL_ROWS|1|50000
+12:55:50.0 (6508593)|HEAP_ALLOCATE|[33]|Bytes:8
+12:55:50.0 (6526789)|HEAP_ALLOCATE|[33]|Bytes:29
+12:55:50.0 (6653475)|HEAP_ALLOCATE|[33]|Bytes:8
+12:55:50.0 (6670815)|VARIABLE_SCOPE_BEGIN|[33]|a|List<Account>|true|false
+12:55:50.0 (6695742)|VARIABLE_ASSIGNMENT|[33]|a|[{"Id":"001V000000VxnmDIAR"}]|0x37cd51bf
+12:55:50.0 (6772960)|STATEMENT_EXECUTE|[34]
+12:55:50.0 (6775496)|STATEMENT_EXECUTE|[36]
+12:55:50.0 (6789894)|HEAP_ALLOCATE|[36]|Bytes:8
+12:55:50.0 (6801381)|VARIABLE_SCOPE_BEGIN|[36]|account|Account|true|false
+12:55:50.0 (6817945)|VARIABLE_ASSIGNMENT|[36]|account|{"Id":"001V000000VxnmDIAR"}|0x6edb230d
+12:55:50.0 (6824670)|STATEMENT_EXECUTE|[37]
+12:55:50.0 (6861442)|VARIABLE_SCOPE_BEGIN|[37]|accountId|Id|false|false
+12:55:50.0 (6953484)|VARIABLE_ASSIGNMENT|[37]|accountId|"001V000000VxnmDIAR"
+12:55:50.0 (6961900)|STATEMENT_EXECUTE|[38]
+12:55:50.0 (6966595)|HEAP_ALLOCATE|[38]|Bytes:63
+12:55:50.0 (6982625)|HEAP_ALLOCATE|[38]|Bytes:4
+12:55:50.0 (7174966)|SOQL_EXECUTE_BEGIN|[38]|Aggregations:0|SELECT PersonContactId FROM Account WHERE Id = :tmpVar1 LIMIT 1
+12:55:50.0 (7187033)|LIMIT_USAGE|[38]|SOQL|2|100
+12:55:50.0 (7196709)|LIMIT_USAGE|[38]|AGGS|0|300
+12:55:50.0 (9211578)|SOQL_EXECUTE_END|[38]|Rows:1
+12:55:50.0 (9222582)|LIMIT_USAGE|[38]|SOQL_ROWS|2|50000
+12:55:50.0 (9237320)|HEAP_ALLOCATE|[38]|Bytes:8
+12:55:50.0 (9249142)|HEAP_ALLOCATE|[38]|Bytes:66
+12:55:50.0 (9279497)|HEAP_ALLOCATE|[38]|Bytes:8
+12:55:50.0 (9293213)|HEAP_ALLOCATE|[38]|Bytes:33
+12:55:50.0 (9308796)|HEAP_ALLOCATE|[38]|Bytes:12
+12:55:50.0 (9317751)|VARIABLE_SCOPE_BEGIN|[38]|Acc|Account|true|false
+12:55:50.0 (9337046)|VARIABLE_ASSIGNMENT|[38]|Acc|{"PersonContactId":"003V000000VotfgIAB","Id":"001V000000VxnmDIAR"}|0x4657a3a8
+12:55:50.0 (9343856)|STATEMENT_EXECUTE|[43]
+12:55:50.0 (9372530)|VARIABLE_SCOPE_BEGIN|[43]|contactId|Id|false|false
+12:55:50.0 (9432391)|VARIABLE_ASSIGNMENT|[43]|contactId|"003V000000VotfgIAB"
+12:55:50.0 (9440935)|STATEMENT_EXECUTE|[46]
+12:55:50.0 (9445434)|HEAP_ALLOCATE|[46]|Bytes:54
+12:55:50.0 (9460901)|HEAP_ALLOCATE|[46]|Bytes:4
+12:55:50.0 (9678569)|SOQL_EXECUTE_BEGIN|[46]|Aggregations:0|SELECT Id FROM User WHERE ContactId = :tmpVar1 LIMIT 1
+12:55:50.0 (9689453)|LIMIT_USAGE|[46]|SOQL|3|100
+12:55:50.0 (9699726)|LIMIT_USAGE|[46]|AGGS|0|300
+12:55:50.0 (21824254)|SOQL_EXECUTE_END|[46]|Rows:1
+12:55:50.0 (21844901)|LIMIT_USAGE|[46]|SOQL_ROWS|3|50000
+12:55:50.0 (21872013)|HEAP_ALLOCATE|[46]|Bytes:8
+12:55:50.0 (21894266)|HEAP_ALLOCATE|[46]|Bytes:29
+12:55:50.0 (22015912)|HEAP_ALLOCATE|[46]|Bytes:8
+12:55:50.0 (22047829)|VARIABLE_SCOPE_BEGIN|[46]|u|List<User>|true|false
+12:55:50.0 (22086921)|VARIABLE_ASSIGNMENT|[46]|u|[{"Id":"005V0000004yIyfIAE"}]|0x7bb5cafb
+12:55:50.0 (22193210)|STATEMENT_EXECUTE|[47]
+12:55:50.0 (22196590)|STATEMENT_EXECUTE|[50]
+12:55:50.0 (22226809)|HEAP_ALLOCATE|[50]|Bytes:4
+12:55:50.0 (22371486)|VARIABLE_SCOPE_BEGIN|[50]|user|User|true|false
+12:55:50.0 (22391743)|VARIABLE_ASSIGNMENT|[50]|user|{}|0x37f74f2a
+12:55:50.0 (22398472)|STATEMENT_EXECUTE|[51]
+12:55:50.0 (22488246)|VARIABLE_ASSIGNMENT|[51]|this.ContactId|"003V000000VotfgIAB"|0x37f74f2a
+12:55:50.0 (22497468)|STATEMENT_EXECUTE|[52]
+12:55:50.0 (22540159)|VARIABLE_ASSIGNMENT|[52]|this.Username|"manuela.lkayser@gmai (5 more) ..."|0x37f74f2a
+12:55:50.0 (22549249)|STATEMENT_EXECUTE|[53]
+12:55:50.0 (22587357)|VARIABLE_ASSIGNMENT|[53]|this.FirstName|"Manuela-Tester"|0x37f74f2a
+12:55:50.0 (22595767)|STATEMENT_EXECUTE|[54]
+12:55:50.0 (22624070)|VARIABLE_ASSIGNMENT|[54]|this.LastName|"Kayser"|0x37f74f2a
+12:55:50.0 (22631677)|STATEMENT_EXECUTE|[55]
+12:55:50.0 (22662605)|VARIABLE_ASSIGNMENT|[55]|this.Email|"manuela.lkayser@gmai (5 more) ..."|0x37f74f2a
+12:55:50.0 (22675077)|STATEMENT_EXECUTE|[57]
+12:55:50.0 (22682408)|HEAP_ALLOCATE|[57]|Bytes:1
+12:55:50.0 (22753002)|HEAP_ALLOCATE|[57]|Bytes:15
+12:55:50.0 (22789866)|HEAP_ALLOCATE|[57]|Bytes:8
+12:55:50.0 (22838724)|VARIABLE_ASSIGNMENT|[57]|this.Alias|"manuela."|0x37f74f2a
+12:55:50.0 (22847972)|STATEMENT_EXECUTE|[58]
+12:55:50.0 (22851964)|HEAP_ALLOCATE|[58]|Bytes:16
+12:55:50.0 (22890509)|VARIABLE_ASSIGNMENT|[58]|this.TimeZoneSidKey|"America/New_York"|0x37f74f2a
+12:55:50.0 (22898817)|STATEMENT_EXECUTE|[59]
+12:55:50.0 (22902478)|HEAP_ALLOCATE|[59]|Bytes:5
+12:55:50.0 (22938356)|VARIABLE_ASSIGNMENT|[59]|this.LocaleSidKey|"en_US"|0x37f74f2a
+12:55:50.0 (22946606)|STATEMENT_EXECUTE|[60]
+12:55:50.0 (22950558)|HEAP_ALLOCATE|[60]|Bytes:5
+12:55:50.0 (22986118)|VARIABLE_ASSIGNMENT|[60]|this.EmailEncodingKey|"UTF-8"|0x37f74f2a
+12:55:50.0 (22994076)|STATEMENT_EXECUTE|[61]
+12:55:50.0 (23026504)|VARIABLE_ASSIGNMENT|[61]|this.LanguageLocaleKey|"en_US"|0x37f74f2a
+12:55:50.0 (23035079)|STATEMENT_EXECUTE|[64]
+12:55:50.0 (23039035)|HEAP_ALLOCATE|[64]|Bytes:72
+12:55:50.0 (23060093)|HEAP_ALLOCATE|[64]|Bytes:4
+12:55:50.0 (23331116)|SOQL_EXECUTE_BEGIN|[64]|Aggregations:0|SELECT Id FROM Profile WHERE Name = 'WCI: Client Community Plus' LIMIT 1
+12:55:50.0 (23344076)|LIMIT_USAGE|[64]|SOQL|4|100
+12:55:50.0 (23354064)|LIMIT_USAGE|[64]|AGGS|0|300
+12:55:50.0 (35073104)|SOQL_EXECUTE_END|[64]|Rows:1
+12:55:50.0 (35100275)|LIMIT_USAGE|[64]|SOQL_ROWS|4|50000
+12:55:50.0 (35129940)|HEAP_ALLOCATE|[64]|Bytes:8
+12:55:50.0 (35152372)|HEAP_ALLOCATE|[64]|Bytes:29
+12:55:50.0 (35283626)|HEAP_ALLOCATE|[64]|Bytes:8
+12:55:50.0 (35309742)|HEAP_ALLOCATE|[64]|Bytes:33
+12:55:50.0 (35365899)|HEAP_ALLOCATE|[64]|Bytes:8
+12:55:50.0 (35518742)|VARIABLE_ASSIGNMENT|[64]|this.ProfileId|"00e44000000ITMVAA4"|0x37f74f2a
+12:55:50.0 (35531180)|STATEMENT_EXECUTE|[65]
+12:55:50.0 (35577699)|VARIABLE_ASSIGNMENT|[65]|this.IsActive|true|0x37f74f2a
+12:55:50.0 (35586374)|STATEMENT_EXECUTE|[67]
+12:55:50.0 (35587909)|STATEMENT_EXECUTE|[67]
+12:55:50.0 (35589279)|STATEMENT_EXECUTE|[69]
+12:55:50.0 (35631724)|HEAP_ALLOCATE|[69]|Bytes:8
+12:55:50.0 (35642305)|DML_BEGIN|[69]|Op:Insert|Type:User|Rows:1
+12:55:50.0 (35652952)|LIMIT_USAGE|[69]|DML|1|150
+12:55:50.0 (35663240)|LIMIT_USAGE|[69]|DML_ROWS|1|10000
+12:55:50.0 (35682685)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+12:55:50.0 (58921132)|CODE_UNIT_STARTED|[EXTERNAL]|01qV0000000DErk|LocalTimeUserTrigger on User trigger event BeforeInsert for [new]
+12:55:50.0 (58984406)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+12:55:50.0 (59122393)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+12:55:50.0 (59144238)|VARIABLE_SCOPE_BEGIN|[5]|this|LocalTimeUserTrigger|true|false
+12:55:50.0 (59202623)|VARIABLE_ASSIGNMENT|[5]|this|{}|0x20033d91
+12:55:50.0 (59263592)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+12:55:50.0 (59275602)|VARIABLE_SCOPE_BEGIN|[5]|this|LocalTimeUserTrigger|true|false
+12:55:50.0 (59291316)|VARIABLE_ASSIGNMENT|[5]|this|{}|0x20033d91
+12:55:50.0 (59300184)|STATEMENT_EXECUTE|[5]
+12:55:50.0 (59587330)|HEAP_ALLOCATE|[7]|Bytes:5
+12:55:50.0 (59618509)|HEAP_ALLOCATE|[7]|Bytes:4
+12:55:50.0 (59632858)|VARIABLE_SCOPE_BEGIN|[7]|u|User|true|false
+12:55:50.0 (86358992)|VARIABLE_ASSIGNMENT|[7]|u|{"ProfileId":"00e44000000ITMVAA4","ReceivesAdminInfoEma (3 more) ...":false,"LocaleSidKey":"en_US","Email":"manuela.lkayser@gmai (5 more) ...","TimeZoneSidKey":"America/New_York","LanguageLocaleKey":"en_US","License_Type__c":"Customer Community P (9 more) ...","FirstName":"Manuela-Tester","IsActive":true,"Nurse__c":false,"Name_Formula__c":"Manuela-Tester Kayse (1 more) ...","ContactId":"003V000000VotfgIAB","EmailEncodingKey":"UTF-8","ForecastEnabled":false,"ReceivesInfoEmails":false,"IsExtIndicatorVisibl (1 more) ...":false,"IsProfilePhotoActive":false,"CommunityNickname":"manuela.lkayser1.511 (16 more) ...","IsPortalEnabled":false,"Username":"manuela.lkayser@gmai (5 more) ...","Alias":"manuela.","LastName":"Kayser","Server_URL__c":"https://cs12.salesfo (7 more) ...","IsPortalSelfRegister (2 more) ...":false}|0x54aa07b2
+12:55:50.0 (86390441)|STATEMENT_EXECUTE|[7]
+12:55:50.0 (86393598)|STATEMENT_EXECUTE|[9]
+12:55:50.0 (86395971)|STATEMENT_EXECUTE|[9]
+12:55:50.0 (86397273)|STATEMENT_EXECUTE|[10]
+12:55:50.0 (94068252)|VARIABLE_SCOPE_BEGIN|[3]|LocalTime.NOT_AVAILABLE|String|false|true
+12:55:50.0 (94088254)|VARIABLE_SCOPE_BEGIN|[9]|LocalTime.REGION_AFRICA|String|false|true
+12:55:50.0 (94098539)|VARIABLE_SCOPE_BEGIN|[6]|LocalTime.REGION_ASIA|String|false|true
+12:55:50.0 (94108493)|VARIABLE_SCOPE_BEGIN|[5]|LocalTime.REGION_EUROPE|String|false|true
+12:55:50.0 (94117541)|VARIABLE_SCOPE_BEGIN|[11]|LocalTime.REGION_ISRAEL|String|false|true
+12:55:50.0 (94130985)|VARIABLE_SCOPE_BEGIN|[4]|LocalTime.REGION_NA|String|false|true
+12:55:50.0 (94142665)|VARIABLE_SCOPE_BEGIN|[10]|LocalTime.REGION_NZ|String|false|true
+12:55:50.0 (94152272)|VARIABLE_SCOPE_BEGIN|[7]|LocalTime.REGION_OCEANIA|String|false|true
+12:55:50.0 (94162087)|VARIABLE_SCOPE_BEGIN|[8]|LocalTime.REGION_SA|String|false|true
+12:55:50.0 (94194702)|HEAP_ALLOCATE|[10]|Bytes:92
+12:55:50.0 (94210426)|HEAP_ALLOCATE|[10]|Bytes:3
+12:55:50.0 (94228268)|VARIABLE_ASSIGNMENT|[10]|LocalTime.NOT_AVAILABLE|"N/A"
+12:55:50.0 (94235165)|HEAP_ALLOCATE|[10]|Bytes:6
+12:55:50.0 (94242408)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_AFRICA|"AFRICA"
+12:55:50.0 (94247295)|HEAP_ALLOCATE|[10]|Bytes:4
+12:55:50.0 (94253667)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_ASIA|"ASIA"
+12:55:50.0 (94258176)|HEAP_ALLOCATE|[10]|Bytes:6
+12:55:50.0 (94265039)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_EUROPE|"EUROPE"
+12:55:50.0 (94269425)|HEAP_ALLOCATE|[10]|Bytes:6
+12:55:50.0 (94275787)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_ISRAEL|"ISRAEL"
+12:55:50.0 (94280121)|HEAP_ALLOCATE|[10]|Bytes:2
+12:55:50.0 (94286296)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_NA|"NA"
+12:55:50.0 (94290867)|HEAP_ALLOCATE|[10]|Bytes:2
+12:55:50.0 (94297066)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_NZ|"NZ"
+12:55:50.0 (94301464)|HEAP_ALLOCATE|[10]|Bytes:7
+12:55:50.0 (94308095)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_OCEANIA|"OCEANIA"
+12:55:50.0 (94312658)|HEAP_ALLOCATE|[10]|Bytes:2
+12:55:50.0 (94318916)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_SA|"SA"
+12:55:50.0 (94353497)|METHOD_ENTRY|[2]|01pE0000001ksei|LocalTime.LocalTime()
+12:55:50.0 (94362841)|STATEMENT_EXECUTE|[2]
+12:55:50.0 (94369918)|ENTERING_MANAGED_PKG|tz
+12:55:50.0 (94394086)|METHOD_EXIT|[2]|LocalTime
+12:55:50.0 (94440486)|METHOD_ENTRY|[10]|01pE0000001ksei|tz.LocalTime.getOffsetFull(String, String, String)
+12:55:50.0 (94448816)|ENTERING_MANAGED_PKG|tz
+12:55:50.0 (94720729)|ENTERING_MANAGED_PKG|tz
+12:55:50.0 (94822155)|ENTERING_MANAGED_PKG|tz
+12:55:50.0 (96217136)|SOQL_EXECUTE_BEGIN|[369]|Aggregations:0|SELECT tz__Country__c FROM tz__lt_country_names__mdt WHERE MasterLabel = :tmpVar1
+12:55:50.0 (110094013)|SOQL_EXECUTE_END|[369]|Rows:1
+12:55:50.0 (110637240)|ENTERING_MANAGED_PKG|tz
+12:55:50.0 (110735804)|METHOD_EXIT|[10]|01pE0000001ksei|tz.LocalTime.getOffsetFull(String, String, String)
+12:55:50.0 (110746289)|VARIABLE_SCOPE_BEGIN|[10]|jsonStr|String|false|false
+12:55:50.0 (110778335)|VARIABLE_ASSIGNMENT|[10]|jsonStr|"{\"offset\":\"N/A\",\"dst (92 more) ..."
+12:55:50.0 (110785975)|STATEMENT_EXECUTE|[11]
+12:55:50.0 (110789157)|STATEMENT_EXECUTE|[12]
+12:55:50.0 (110873882)|HEAP_ALLOCATE|[12]|Bytes:24
+12:55:50.0 (110895745)|SYSTEM_METHOD_ENTRY|[1]|JSON.JSON()
+12:55:50.0 (110900470)|STATEMENT_EXECUTE|[1]
+12:55:50.0 (110912487)|SYSTEM_METHOD_EXIT|[1]|JSON
+12:55:50.0 (110928935)|METHOD_ENTRY|[12]||System.JSON.deserializeUntyped(String)
+12:55:50.0 (111425101)|METHOD_EXIT|[12]||System.JSON.deserializeUntyped(String)
+12:55:50.0 (111442821)|VARIABLE_SCOPE_BEGIN|[12]|m|Map<String,ANY>|true|false
+12:55:50.0 (111470583)|VARIABLE_ASSIGNMENT|[12]|m|"Map of size 6 too large to display"|0x34e37042
+12:55:50.0 (111477979)|STATEMENT_EXECUTE|[13]
+12:55:50.0 (111483053)|HEAP_ALLOCATE|[13]|Bytes:6
+12:55:50.0 (111527176)|VARIABLE_SCOPE_BEGIN|[13]|offset|String|false|false
+12:55:50.0 (111540564)|VARIABLE_ASSIGNMENT|[13]|offset|"N/A"
+12:55:50.0 (111547390)|HEAP_ALLOCATE|[14]|Bytes:3
+12:55:50.0 (111580298)|STATEMENT_EXECUTE|[14]
+12:55:50.0 (111601992)|HEAP_ALLOCATE|[7]|Bytes:5
+12:55:50.0 (111622164)|VARIABLE_ASSIGNMENT|[7]|u|null|
+12:55:50.111 (111634153)|CUMULATIVE_LIMIT_USAGE
+12:55:50.111 (111634153)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 4 out of 100
+  Number of query rows: 4 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+12:55:50.111 (111634153)|LIMIT_USAGE_FOR_NS|tz|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+12:55:50.111 (111634153)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+12:55:50.111 (111634153)|STATIC_VARIABLE_LIST|
+  char[]:DigitTens:0
+  long:serialVersionUID:0
+  String:_static_REGION_EUROPE:0
+  String:_static_REGION_NA:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MAX_VALUE:0
+  Boolean:FALSE:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MIN_VALUE:0
+  int:SIZE:0
+  String:_sfdcAdditionalCodeLocations:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:NEGATIVE_INFINITY:0
+  String:_static_NOT_AVAILABLE:0
+  int:MAX_VALUE:0
+  String:_static_REGION_ISRAEL:0
+  char[]:digits:0
+  String:_sfdcAdditionalCodeLocations:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:NaN:0
+  Boolean:TRUE:0
+  String:_static_REGION_AFRICA:0
+  String:_static_REGION_NZ:0
+  String:_static_REGION_SA:0
+  int:MIN_VALUE:0
+  char[]:DigitOnes:0
+  String:__sfdcProperties:0
+  int:BYTES:0
+  String:_sfdcAdditionalCodeLocations:0
+  int:MIN_EXPONENT:0
+  int[]:sizeTable:0
+  String:__sfdcProperties:0
+  String:__sfdcProperties:0
+  String:_static_REGION_ASIA:0
+  int:MAX_EXPONENT:0
+  String:_static_REGION_OCEANIA:0
+  int:SIZE:0
+  double:POSITIVE_INFINITY:0
+  double:MIN_NORMAL:0
+  int:BYTES:0
+
+12:55:50.111 (111634153)|CUMULATIVE_LIMIT_USAGE_END
+
+12:55:50.0 (112729949)|CODE_UNIT_FINISHED|LocalTimeUserTrigger on User trigger event BeforeInsert for [new]
+12:55:50.0 (160442556)|DML_END|[69]
+12:55:50.0 (160550205)|EXCEPTION_THROWN|[69]|System.DmlException: Insert failed. First exception on row 0; first error: PORTAL_USER_ALREADY_EXISTS_FOR_CONTACT, portal user already exists for contact: []
+12:55:50.0 (160915677)|HEAP_ALLOCATE|[69]|Bytes:140
+12:55:50.0 (160986101)|VARIABLE_SCOPE_BEGIN|[73]|e|System.DmlException|true|false
+12:55:50.0 (161088144)|VARIABLE_ASSIGNMENT|[73]|e|"common.apex.runtime.impl.DmlExecutionException: Insert failed. First exception on row 0; first error: PORTAL_USER_ALREADY_EXISTS_FOR_CONTACT, portal user already exists for contact: []"|0x1fa4c7f7
+12:55:50.0 (161103072)|STATEMENT_EXECUTE|[73]
+12:55:50.0 (161106001)|STATEMENT_EXECUTE|[74]
+12:55:50.0 (161114025)|HEAP_ALLOCATE|[74]|Bytes:8
+12:55:50.0 (161181012)|HEAP_ALLOCATE|[74]|Bytes:136
+12:55:50.0 (161209028)|HEAP_ALLOCATE|[74]|Bytes:144
+12:55:50.0 (161227270)|VARIABLE_ASSIGNMENT|[74]|message|"Failed: Insert faile (124 more) ..."
+12:55:50.0 (161235232)|STATEMENT_EXECUTE|[86]
+12:55:50.0 (161243977)|SYSTEM_MODE_EXIT|false
+12:55:50.164 (164241038)|CUMULATIVE_LIMIT_USAGE
+12:55:50.164 (164241038)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 4 out of 100
+  Number of query rows: 4 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+12:55:50.164 (164241038)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+12:55:50.164 (164241038)|STATIC_VARIABLE_LIST|
+  char[]:DigitTens:0
+  long:serialVersionUID:0
+  String:_static_REGION_EUROPE:0
+  String:_static_REGION_NA:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MAX_VALUE:0
+  Boolean:FALSE:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MIN_VALUE:0
+  int:SIZE:0
+  String:_sfdcAdditionalCodeLocations:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:NEGATIVE_INFINITY:0
+  String:_static_NOT_AVAILABLE:0
+  int:MAX_VALUE:0
+  String:_static_REGION_ISRAEL:0
+  char[]:digits:0
+  String:_sfdcAdditionalCodeLocations:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:NaN:0
+  Boolean:TRUE:0
+  String:_static_REGION_AFRICA:0
+  String:_static_REGION_NZ:0
+  String:_static_REGION_SA:0
+  int:MIN_VALUE:0
+  char[]:DigitOnes:0
+  String:__sfdcProperties:0
+  int:BYTES:0
+  String:_sfdcAdditionalCodeLocations:0
+  int:MIN_EXPONENT:0
+  int[]:sizeTable:0
+  String:__sfdcProperties:0
+  String:__sfdcProperties:0
+  String:_static_REGION_ASIA:0
+  int:MAX_EXPONENT:0
+  String:_static_REGION_OCEANIA:0
+  int:SIZE:0
+  double:POSITIVE_INFINITY:0
+  double:MIN_NORMAL:0
+  int:BYTES:0
+
+12:55:50.164 (164241038)|CUMULATIVE_LIMIT_USAGE_END
+
+12:55:50.0 (164391394)|CODE_UNIT_FINISHED|portalUser.CreateNewUser
+12:55:50.0 (165634401)|EXECUTION_FINISHED
+12:55:50.167 (167346553)|CUMULATIVE_PROFILING_BEGIN
+12:55:50.167 (167346553)|CUMULATIVE_PROFILING|SOQL operations|
+(tz): [SELECT tz__Country__c FROM tz__lt_country_names__mdt WHERE MasterLabel = :countryCode]: executed 1 time in 15 ms
+Class.portalUser.CreateNewUser: line 46, column 1: [SELECT Id FROM User WHERE ContactId = :contactId LIMIT 1]: executed 1 time in 13 ms
+Class.portalUser.CreateNewUser: line 64, column 1: [SELECT Id FROM Profile WHERE Name='WCI: Client Community Plus' LIMIT 1]: executed 1 time in 12 ms
+Class.portalUser.CreateNewUser: line 33, column 1: [SELECT Id FROM Account WHERE Source_Partner_UID__c = :UID LIMIT 1]: executed 1 time in 3 ms
+Class.portalUser.CreateNewUser: line 38, column 1: [
+                SELECT PersonContactId 
+                FROM Account 
+                WHERE Id = :accountId LIMIT 1
+            ]: executed 1 time in 2 ms
+
+12:55:50.167 (167346553)|CUMULATIVE_PROFILING|No profiling information for SOSL operations
+12:55:50.167 (167346553)|CUMULATIVE_PROFILING|DML operations|
+Class.portalUser.CreateNewUser: line 69, column 1: Insert: User: executed 1 time in 126 ms
+
+12:55:50.167 (167346553)|CUMULATIVE_PROFILING|method invocations|
+External entry point: global static String CreateNewUser(String, String, String, String, String): executed 1 time in 159 ms
+External entry point: public void invoke(): executed 1 time in 52 ms
+Trigger.LocalTimeUserTrigger: line 10, column 1: webService static String getOffsetFull(String, String, String): executed 1 time in 17 ms
+Trigger.LocalTimeUserTrigger: line 7, column 1: global public System.Iterator iterator(): executed 3 times in 0 ms
+Trigger.LocalTimeUserTrigger: line 12, column 1: global static Object deserializeUntyped(String): executed 1 time in 0 ms
+Trigger.LocalTimeUserTrigger: line 13, column 1: global public Object get(Object): executed 1 time in 0 ms
+Class.portalUser.CreateNewUser: line 34, column 1: global public Boolean isEmpty(): executed 1 time in 0 ms
+Class.portalUser.CreateNewUser: line 57, column 1: public String substringBefore(String): executed 2 times in 0 ms
+Class.portalUser.CreateNewUser: line 74, column 1: global String getMessage(): executed 1 time in 0 ms
+Class.portalUser.CreateNewUser: line 47, column 1: global public Boolean isEmpty(): executed 1 time in 0 ms
+
+12:55:50.167 (167346553)|CUMULATIVE_PROFILING_END

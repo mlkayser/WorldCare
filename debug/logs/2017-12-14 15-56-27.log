@@ -1,0 +1,35 @@
+41.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+15:56:26.0 (67753)|USER_INFO|[EXTERNAL]|005E0000004yLLO|worldcare@sadhanaconsulting.com.devfull|Eastern Standard Time|GMT-05:00
+15:56:26.0 (112253)|EXECUTION_STARTED
+15:56:26.0 (116610)|CODE_UNIT_STARTED|[EXTERNAL]|VisualForce View State
+15:56:26.0 (6516553)|HEAP_ALLOCATE|[72]|Bytes:3
+15:56:26.0 (6628832)|HEAP_ALLOCATE|[77]|Bytes:152
+15:56:26.0 (6667397)|HEAP_ALLOCATE|[342]|Bytes:408
+15:56:26.0 (6709063)|HEAP_ALLOCATE|[355]|Bytes:408
+15:56:26.0 (6746988)|HEAP_ALLOCATE|[467]|Bytes:48
+15:56:26.0 (6806467)|HEAP_ALLOCATE|[139]|Bytes:6
+15:56:26.0 (9100445)|CODE_UNIT_FINISHED|VisualForce View State
+15:56:26.0 (10616780)|EXECUTION_FINISHED
+15:56:26.414 (414257529)|USER_INFO|[EXTERNAL]|005E0000004yLLO|worldcare@sadhanaconsulting.com.devfull|Eastern Standard Time|GMT-05:00
+15:56:26.414 (415090948)|SYSTEM_MODE_ENTER|true
+15:56:26.414 (417053717)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:120
+15:56:26.414 (417123944)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:10
+15:56:26.414 (417138199)|SYSTEM_METHOD_ENTRY|[1]|pagemessagecomponentcontroller.pagemessagecomponentcontroller()
+15:56:26.414 (417144445)|STATEMENT_EXECUTE|[1]
+15:56:26.438 (438061291)|CUMULATIVE_LIMIT_USAGE
+15:56:26.438 (438061291)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+15:56:26.438 (438061291)|CUMULATIVE_LIMIT_USAGE_END
+

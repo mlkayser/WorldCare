@@ -1,0 +1,56 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" controller="MyCaseTeamWidgetController">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="cases" type="Case[]"/>
+    <aura:attribute name="CurrentURL" type="String"/>
+    
+    <aura:attribute name="FirstHeading" type="String" default="My Case Team" access="global" />    
+    <aura:attribute name="SecondHeading" type="String" default="My Second Opinion Case" access="global" />    
+    <aura:attribute name="ThirdHeading" type="String" default="Booklet" access="global" />
+    <aura:attribute name="headingColor" type="String" default="#000" access="global" />
+	
+    <div class="box">   
+        <aura:iteration var="case" items="{!v.cases}">
+            
+           <h2 class="heading">{!v.FirstHeading}</h2>
+           <p>     
+               <span class="label">Nurse Case Manager: </span>
+                    <aura:iteration var="teamMember" items="{!case.TeamMembers}">
+                        <aura:if isTrue="{!teamMember.TeamRole.Name == 'Nurse'}">
+                            {!teamMember.Member.Name}<br/>
+                        </aura:if>  
+                    </aura:iteration>
+                    <br/>                  
+                <span class="label">Case Admin: </span>
+                <aura:iteration var="teamMember" items="{!case.TeamMembers}">
+                    <aura:if isTrue="{!teamMember.TeamRole.Name == 'Admin'}">
+                        {!teamMember.Member.Name}<br/>
+                    </aura:if>
+                </aura:iteration>
+            </p>           
+            
+            <h2 class="heading">{!v.SecondHeading}</h2>
+            <p> 
+                <span class="label">Status: </span> {!case.Status}<br/>
+                <span class="label">Date Opened: </span> <ui:outputDate value="{!case.CreatedDate}"/><br/>
+                <span class="label">Initial Complaint: </span> {!case.What_is_the_diagnosis_disease_or_condit__c}<br/>
+                <span class="label">Initial Diagnosis: </span> {!case.Initial_Diagnosis__c}
+			</p>
+            
+            <h2 class="heading">{!v.ThirdHeading}</h2>
+            <p>
+                <aura:if isTrue="{!empty(case.MedRecs__r)}">
+                    <span>Your case is still in process</span>				
+                    <aura:set attribute="else">
+                        <!--<aura:iteration var="medRec" items="{!case.MedRecs__r}">                        
+                            <ui:outputURL value="{!'/members/s/medrec/'+ medRec.Id}" label="{!medRec.Type__c + '&nbsp;'+'-'+'&nbsp;' + medRec.CreatedDate_Without_Time__c}"></ui:outputURL><br/>        	              
+                        </aura:iteration>-->
+                        <aura:iteration var="medRec" items="{!case.MedRecs__r}">                        
+                            <ui:outputURL value="{! v.CurrentURL + '/servlet/servlet.FileDownload?file=' + medRec.Attachment_ID__c}" label="{!medRec.Attachment_Name__c}"></ui:outputURL><br/>        	              
+                        </aura:iteration>
+                    </aura:set>
+                </aura:if>                        
+        	</p>
+    	</aura:iteration>
+    </div>    
+    
+</aura:component>

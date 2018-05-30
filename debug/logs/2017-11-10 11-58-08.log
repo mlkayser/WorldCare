@@ -1,0 +1,368 @@
+40.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+11:58:07.0 (334463)|USER_INFO|[EXTERNAL]|005E0000004yLLO|worldcare@sadhanaconsulting.com.devfull|Eastern Standard Time|GMT-05:00
+11:58:07.0 (368120)|EXECUTION_STARTED
+11:58:07.0 (372055)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+11:58:07.0 (1729479)|CODE_UNIT_STARTED|[EXTERNAL]|01qV0000000DErk|LocalTimeUserTrigger on User trigger event BeforeUpdate for [005E0000004yLLO]
+11:58:07.0 (1767694)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:58:07.0 (1800843)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:58:07.0 (2143645)|HEAP_ALLOCATE|[72]|Bytes:3
+11:58:07.0 (2177589)|HEAP_ALLOCATE|[77]|Bytes:152
+11:58:07.0 (2195834)|HEAP_ALLOCATE|[342]|Bytes:408
+11:58:07.0 (2216391)|HEAP_ALLOCATE|[355]|Bytes:408
+11:58:07.0 (2236517)|HEAP_ALLOCATE|[467]|Bytes:48
+11:58:07.0 (2273306)|HEAP_ALLOCATE|[139]|Bytes:6
+11:58:07.0 (2301500)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:58:07.0 (2312271)|VARIABLE_SCOPE_BEGIN|[5]|this|LocalTimeUserTrigger|true|false
+11:58:07.0 (2363159)|VARIABLE_ASSIGNMENT|[5]|this|{}|0x348004c5
+11:58:07.0 (2415630)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:58:07.0 (2425292)|VARIABLE_SCOPE_BEGIN|[5]|this|LocalTimeUserTrigger|true|false
+11:58:07.0 (2439883)|VARIABLE_ASSIGNMENT|[5]|this|{}|0x348004c5
+11:58:07.0 (2448788)|STATEMENT_EXECUTE|[5]
+11:58:07.0 (2482293)|HEAP_ALLOCATE|[50]|Bytes:5
+11:58:07.0 (2504279)|HEAP_ALLOCATE|[56]|Bytes:5
+11:58:07.0 (2516356)|HEAP_ALLOCATE|[64]|Bytes:7
+11:58:07.0 (2823955)|HEAP_ALLOCATE|[7]|Bytes:5
+11:58:07.0 (2850729)|HEAP_ALLOCATE|[7]|Bytes:4
+11:58:07.0 (2862664)|VARIABLE_SCOPE_BEGIN|[7]|u|User|true|false
+11:58:07.0 (31605268)|VARIABLE_ASSIGNMENT|[7]|u|{"ProfileId":"00eE0000000zEdeIAE","LastModifiedDate":"2017-11-10T16:57:26.000Z","ReceivesAdminInfoEma (3 more) ...":false,"Email":"depot@sadhanaconsult (7 more) ...","TimeZoneSidKey":"America/New_York","LanguageLocaleKey":"fr","UserRoleId":"00EE0000000hj7TMAQ","License_Type__c":"Salesforce","IsActive":true,"Nurse__c":false,"LastLoginDate":"2017-11-10T16:55:46.000Z","PostalCode":"03820","ForecastEnabled":false,"IsExtIndicatorVisibl (1 more) ...":false,"DigestFrequency":"D","UTC_Offset__c":-4.00,"IsProfilePhotoActive":false,"Default_Patient_Coun (6 more) ...":"US","CompanyName":"Sadhana Consulting L (2 more) ...","CommunityNickname":"prozek","CreatedById":"005E0000002k2ScIAI","Street":"1 S Pine Street","Acquisition_Site__c":"001E000001HBa8R","Server_URL__c":"https://cs12.salesfo (17 more) ...","LastPasswordChangeDa (2 more) ...":"2017-10-10T13:48:13.000Z","LocaleSidKey":"en_US","FirstName":"Elissa","Name_Formula__c":"Elissa Sadhana Team  (5 more) ...","Title":"Consultant","City":"Dover","EmailEncodingKey":"ISO-8859-1","ReceivesInfoEmails":false,"SystemModstamp":"2017-11-10T16:57:26.000Z","User_18_Digit_ID__c":"005E0000004yLLOIA2","IsPortalEnabled":false,"Username":"worldcare@sadhanacon (19 more) ...","Alias":"Sadhana","DefaultGroupNotifica (13 more) ...":"N","CreatedDate":"2014-03-07T01:09:17.000Z","LastName":"Sadhana Team (WCI)","Id":"005E0000004yLLOIA2","IsPortalSelfRegister (2 more) ...":false,"UserType":"Standard","LastModifiedById":"005E0000004yLLOIA2"}|0x13f7e0d5
+11:58:07.0 (31649446)|STATEMENT_EXECUTE|[7]
+11:58:07.0 (31651438)|STATEMENT_EXECUTE|[9]
+11:58:07.0 (31652442)|STATEMENT_EXECUTE|[9]
+11:58:07.0 (31653524)|STATEMENT_EXECUTE|[10]
+11:58:07.0 (36247380)|VARIABLE_SCOPE_BEGIN|[3]|LocalTime.NOT_AVAILABLE|String|false|true
+11:58:07.0 (36267269)|VARIABLE_SCOPE_BEGIN|[9]|LocalTime.REGION_AFRICA|String|false|true
+11:58:07.0 (36277140)|VARIABLE_SCOPE_BEGIN|[6]|LocalTime.REGION_ASIA|String|false|true
+11:58:07.0 (36286489)|VARIABLE_SCOPE_BEGIN|[5]|LocalTime.REGION_EUROPE|String|false|true
+11:58:07.0 (36295859)|VARIABLE_SCOPE_BEGIN|[11]|LocalTime.REGION_ISRAEL|String|false|true
+11:58:07.0 (36304819)|VARIABLE_SCOPE_BEGIN|[4]|LocalTime.REGION_NA|String|false|true
+11:58:07.0 (36314076)|VARIABLE_SCOPE_BEGIN|[10]|LocalTime.REGION_NZ|String|false|true
+11:58:07.0 (36323054)|VARIABLE_SCOPE_BEGIN|[7]|LocalTime.REGION_OCEANIA|String|false|true
+11:58:07.0 (36332398)|VARIABLE_SCOPE_BEGIN|[8]|LocalTime.REGION_SA|String|false|true
+11:58:07.0 (36385552)|HEAP_ALLOCATE|[10]|Bytes:86
+11:58:07.0 (36399601)|HEAP_ALLOCATE|[10]|Bytes:3
+11:58:07.0 (36440286)|VARIABLE_ASSIGNMENT|[10]|LocalTime.NOT_AVAILABLE|"N/A"
+11:58:07.0 (36447572)|HEAP_ALLOCATE|[10]|Bytes:6
+11:58:07.0 (36455189)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_AFRICA|"AFRICA"
+11:58:07.0 (36459498)|HEAP_ALLOCATE|[10]|Bytes:4
+11:58:07.0 (36464989)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_ASIA|"ASIA"
+11:58:07.0 (36469211)|HEAP_ALLOCATE|[10]|Bytes:6
+11:58:07.0 (36475287)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_EUROPE|"EUROPE"
+11:58:07.0 (36479396)|HEAP_ALLOCATE|[10]|Bytes:6
+11:58:07.0 (36485003)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_ISRAEL|"ISRAEL"
+11:58:07.0 (36488819)|HEAP_ALLOCATE|[10]|Bytes:2
+11:58:07.0 (36494254)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_NA|"NA"
+11:58:07.0 (36498477)|HEAP_ALLOCATE|[10]|Bytes:2
+11:58:07.0 (36503960)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_NZ|"NZ"
+11:58:07.0 (36507780)|HEAP_ALLOCATE|[10]|Bytes:7
+11:58:07.0 (36513714)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_OCEANIA|"OCEANIA"
+11:58:07.0 (36517992)|HEAP_ALLOCATE|[10]|Bytes:2
+11:58:07.0 (36523374)|VARIABLE_ASSIGNMENT|[10]|LocalTime.REGION_SA|"SA"
+11:58:07.0 (36538358)|METHOD_ENTRY|[2]|01pE0000001ksei|LocalTime.LocalTime()
+11:58:07.0 (36545191)|STATEMENT_EXECUTE|[2]
+11:58:07.0 (36564801)|ENTERING_MANAGED_PKG|tz
+11:58:07.0 (36582824)|METHOD_EXIT|[2]|LocalTime
+11:58:07.0 (36623719)|METHOD_ENTRY|[10]|01pE0000001ksei|tz.LocalTime.getOffsetFull(String, String, String)
+11:58:07.0 (36632112)|ENTERING_MANAGED_PKG|tz
+11:58:07.0 (36821296)|ENTERING_MANAGED_PKG|tz
+11:58:07.0 (36909593)|ENTERING_MANAGED_PKG|tz
+11:58:07.0 (37852918)|SOQL_EXECUTE_BEGIN|[333]|Aggregations:0|SELECT tz__Country__c FROM tz__lt_country_names__mdt WHERE MasterLabel = :tmpVar1
+11:58:07.0 (49049837)|SOQL_EXECUTE_END|[333]|Rows:1
+11:58:07.0 (49487345)|ENTERING_MANAGED_PKG|tz
+11:58:07.0 (49561058)|METHOD_EXIT|[10]|01pE0000001ksei|tz.LocalTime.getOffsetFull(String, String, String)
+11:58:07.0 (49570354)|VARIABLE_SCOPE_BEGIN|[10]|jsonStr|String|false|false
+11:58:07.0 (49586895)|VARIABLE_ASSIGNMENT|[10]|jsonStr|"{\"offset\":\"N/A\",\"dst (92 more) ..."
+11:58:07.0 (49593336)|STATEMENT_EXECUTE|[11]
+11:58:07.0 (49594887)|STATEMENT_EXECUTE|[12]
+11:58:07.0 (49634539)|HEAP_ALLOCATE|[12]|Bytes:24
+11:58:07.0 (49647942)|SYSTEM_METHOD_ENTRY|[1]|JSON.JSON()
+11:58:07.0 (49651936)|STATEMENT_EXECUTE|[1]
+11:58:07.0 (49659331)|SYSTEM_METHOD_EXIT|[1]|JSON
+11:58:07.0 (49673098)|METHOD_ENTRY|[12]||System.JSON.deserializeUntyped(String)
+11:58:07.0 (50156791)|METHOD_EXIT|[12]||System.JSON.deserializeUntyped(String)
+11:58:07.0 (50169797)|VARIABLE_SCOPE_BEGIN|[12]|m|Map<String,ANY>|true|false
+11:58:07.0 (50191618)|VARIABLE_ASSIGNMENT|[12]|m|"Map of size 6 too large to display"|0x315361ab
+11:58:07.0 (50198051)|STATEMENT_EXECUTE|[13]
+11:58:07.0 (50202411)|HEAP_ALLOCATE|[13]|Bytes:6
+11:58:07.0 (50244699)|VARIABLE_SCOPE_BEGIN|[13]|offset|String|false|false
+11:58:07.0 (50259441)|VARIABLE_ASSIGNMENT|[13]|offset|"N/A"
+11:58:07.0 (50265950)|HEAP_ALLOCATE|[14]|Bytes:3
+11:58:07.0 (50291712)|STATEMENT_EXECUTE|[14]
+11:58:07.0 (50307430)|HEAP_ALLOCATE|[7]|Bytes:5
+11:58:07.0 (50323925)|VARIABLE_ASSIGNMENT|[7]|u|null|
+11:58:07.50 (50336044)|CUMULATIVE_LIMIT_USAGE
+11:58:07.50 (50336044)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:58:07.50 (50336044)|LIMIT_USAGE_FOR_NS|tz|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:58:07.50 (50336044)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+11:58:07.50 (50336044)|STATIC_VARIABLE_LIST|
+  char[]:DigitTens:0
+  long:serialVersionUID:0
+  String:_static_REGION_EUROPE:0
+  String:_static_REGION_NA:0
+  long:serialVersionUID:0
+  double:MAX_VALUE:0
+  Boolean:FALSE:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MIN_VALUE:0
+  int:SIZE:0
+  double:NEGATIVE_INFINITY:0
+  String:_static_NOT_AVAILABLE:0
+  int:MAX_VALUE:0
+  String:_static_REGION_ISRAEL:0
+  char[]:digits:0
+  double:NaN:0
+  Boolean:TRUE:0
+  String:_static_REGION_AFRICA:0
+  String:_static_REGION_NZ:0
+  String:_static_REGION_SA:0
+  int:MIN_VALUE:0
+  char[]:DigitOnes:0
+  int:BYTES:0
+  String:_sfdcAdditionalCodeLocations:0
+  int:MIN_EXPONENT:0
+  int[]:sizeTable:0
+  String:_static_REGION_ASIA:0
+  int:MAX_EXPONENT:0
+  String:_static_REGION_OCEANIA:0
+  int:SIZE:0
+  double:POSITIVE_INFINITY:0
+  double:MIN_NORMAL:0
+  int:BYTES:0
+
+11:58:07.50 (50336044)|CUMULATIVE_LIMIT_USAGE_END
+
+11:58:07.0 (51781489)|CODE_UNIT_FINISHED|LocalTimeUserTrigger on User trigger event BeforeUpdate for [005E0000004yLLO]
+11:58:07.140 (140358099)|ENTERING_MANAGED_PKG|skuid
+11:58:07.141 (141291473)|CUMULATIVE_LIMIT_USAGE
+11:58:07.141 (141291473)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:58:07.141 (141291473)|LIMIT_USAGE_FOR_NS|tz|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:58:07.141 (141291473)|CUMULATIVE_LIMIT_USAGE_END
+
+11:58:07.0 (144007963)|CODE_UNIT_STARTED|[EXTERNAL]|Workflow:User
+11:58:07.0 (150613144)|WF_RULE_EVAL_BEGIN|Workflow
+11:58:07.0 (150640191)|WF_CRITERIA_BEGIN|[User: Elissa Sadhana Team (WCI) 005E0000004yLLO]|Member_Community_New_User301V000000063fo|01QV00000001N6N|ON_CREATE_ONLY|0
+11:58:07.0 (150650994)|WF_RULE_NOT_EVALUATED
+11:58:07.0 (150657791)|WF_SPOOL_ACTION_BEGIN|Workflow
+11:58:07.0 (150666758)|WF_ACTION| None
+11:58:07.0 (150671770)|WF_RULE_EVAL_END
+11:58:07.0 (150723470)|WF_ACTIONS_END| None
+11:58:07.0 (150735396)|CODE_UNIT_FINISHED|Workflow:User
+11:58:07.0 (161708368)|CODE_UNIT_STARTED|[EXTERNAL]|01qV0000000DErk|LocalTimeUserTrigger on User trigger event BeforeUpdate for [005E0000004yLLO]
+11:58:07.0 (161744042)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:58:07.0 (161768032)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:58:07.0 (161816968)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:58:07.0 (161827954)|VARIABLE_SCOPE_BEGIN|[5]|this|LocalTimeUserTrigger|true|false
+11:58:07.0 (161859278)|VARIABLE_ASSIGNMENT|[5]|this|{}|0x2728f166
+11:58:07.0 (161897319)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:58:07.0 (161909510)|VARIABLE_SCOPE_BEGIN|[5]|this|LocalTimeUserTrigger|true|false
+11:58:07.0 (161932756)|VARIABLE_ASSIGNMENT|[5]|this|{}|0x2728f166
+11:58:07.0 (161948688)|STATEMENT_EXECUTE|[5]
+11:58:07.0 (162016661)|HEAP_ALLOCATE|[7]|Bytes:5
+11:58:07.0 (162037090)|HEAP_ALLOCATE|[7]|Bytes:4
+11:58:07.0 (162047112)|VARIABLE_SCOPE_BEGIN|[7]|u|User|true|false
+11:58:07.0 (168227787)|VARIABLE_ASSIGNMENT|[7]|u|{"ProfileId":"00eE0000000zEdeIAE","LastModifiedDate":"2017-11-10T16:58:07.000Z","ReceivesAdminInfoEma (3 more) ...":false,"Email":"depot@sadhanaconsult (7 more) ...","TimeZoneSidKey":"America/New_York","LanguageLocaleKey":"en_US","UserRoleId":"00EE0000000hj7TMAQ","License_Type__c":"Salesforce","IsActive":true,"Nurse__c":false,"LastLoginDate":"2017-11-10T16:55:46.000Z","PostalCode":"03820","ForecastEnabled":false,"IsExtIndicatorVisibl (1 more) ...":false,"DigestFrequency":"D","UTC_Offset__c":-4.00,"IsProfilePhotoActive":false,"Default_Patient_Coun (6 more) ...":"US","CompanyName":"Sadhana Consulting L (2 more) ...","CommunityNickname":"prozek","CreatedById":"005E0000002k2ScIAI","Street":"1 S Pine Street","Acquisition_Site__c":"001E000001HBa8R","Server_URL__c":"https://cs12.salesfo (17 more) ...","LastPasswordChangeDa (2 more) ...":"2017-10-10T13:48:13.000Z","LocaleSidKey":"en_US","FirstName":"Elissa","Name_Formula__c":"Elissa Sadhana Team  (5 more) ...","Title":"Consultant","City":"Dover","EmailEncodingKey":"ISO-8859-1","ReceivesInfoEmails":false,"SystemModstamp":"2017-11-10T16:58:07.000Z","User_18_Digit_ID__c":"005E0000004yLLOIA2","IsPortalEnabled":false,"Username":"worldcare@sadhanacon (19 more) ...","Alias":"Sadhana","DefaultGroupNotifica (13 more) ...":"N","CreatedDate":"2014-03-07T01:09:17.000Z","LastName":"Sadhana Team (WCI)","Id":"005E0000004yLLOIA2","IsPortalSelfRegister (2 more) ...":false,"UserType":"Standard","LastModifiedById":"005E0000004yLLOIA2"}|0x12878a0d
+11:58:07.0 (168263594)|STATEMENT_EXECUTE|[7]
+11:58:07.0 (168265563)|STATEMENT_EXECUTE|[9]
+11:58:07.0 (168266642)|STATEMENT_EXECUTE|[9]
+11:58:07.0 (168267675)|STATEMENT_EXECUTE|[10]
+11:58:07.0 (168315929)|METHOD_ENTRY|[10]|01pE0000001ksei|tz.LocalTime.getOffsetFull(String, String, String)
+11:58:07.0 (168327251)|ENTERING_MANAGED_PKG|tz
+11:58:07.0 (168364510)|ENTERING_MANAGED_PKG|tz
+11:58:07.0 (168415313)|ENTERING_MANAGED_PKG|tz
+11:58:07.0 (168719850)|SOQL_EXECUTE_BEGIN|[333]|Aggregations:0|SELECT tz__Country__c FROM tz__lt_country_names__mdt WHERE MasterLabel = :tmpVar1
+11:58:07.0 (181320296)|SOQL_EXECUTE_END|[333]|Rows:1
+11:58:07.0 (181598899)|ENTERING_MANAGED_PKG|tz
+11:58:07.0 (181651429)|METHOD_EXIT|[10]|01pE0000001ksei|tz.LocalTime.getOffsetFull(String, String, String)
+11:58:07.0 (181660163)|VARIABLE_SCOPE_BEGIN|[10]|jsonStr|String|false|false
+11:58:07.0 (181677390)|VARIABLE_ASSIGNMENT|[10]|jsonStr|"{\"offset\":\"N/A\",\"dst (92 more) ..."
+11:58:07.0 (181683453)|STATEMENT_EXECUTE|[11]
+11:58:07.0 (181684995)|STATEMENT_EXECUTE|[12]
+11:58:07.0 (181694380)|METHOD_ENTRY|[12]||System.JSON.deserializeUntyped(String)
+11:58:07.0 (182124081)|METHOD_EXIT|[12]||System.JSON.deserializeUntyped(String)
+11:58:07.0 (182137867)|VARIABLE_SCOPE_BEGIN|[12]|m|Map<String,ANY>|true|false
+11:58:07.0 (182158648)|VARIABLE_ASSIGNMENT|[12]|m|"Map of size 6 too large to display"|0x4881a82e
+11:58:07.0 (182165199)|STATEMENT_EXECUTE|[13]
+11:58:07.0 (182181257)|VARIABLE_SCOPE_BEGIN|[13]|offset|String|false|false
+11:58:07.0 (182191141)|VARIABLE_ASSIGNMENT|[13]|offset|"N/A"
+11:58:07.0 (182208497)|STATEMENT_EXECUTE|[14]
+11:58:07.0 (182224842)|HEAP_ALLOCATE|[7]|Bytes:5
+11:58:07.0 (182253184)|VARIABLE_ASSIGNMENT|[7]|u|null|
+11:58:07.182 (182272697)|CUMULATIVE_LIMIT_USAGE
+11:58:07.182 (182272697)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:58:07.182 (182272697)|LIMIT_USAGE_FOR_NS|tz|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:58:07.182 (182272697)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+11:58:07.182 (182272697)|STATIC_VARIABLE_LIST|
+  char[]:DigitTens:0
+  long:serialVersionUID:0
+  String:_static_REGION_EUROPE:0
+  String:_static_REGION_NA:0
+  long:serialVersionUID:0
+  double:MAX_VALUE:0
+  Boolean:FALSE:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MIN_VALUE:0
+  int:SIZE:0
+  double:NEGATIVE_INFINITY:0
+  String:_static_NOT_AVAILABLE:0
+  int:MAX_VALUE:0
+  String:_static_REGION_ISRAEL:0
+  char[]:digits:0
+  double:NaN:0
+  Boolean:TRUE:0
+  String:_static_REGION_AFRICA:0
+  String:_static_REGION_NZ:0
+  String:_static_REGION_SA:0
+  int:MIN_VALUE:0
+  String:_sfdcAdditionalCodeLocations:0
+  char[]:DigitOnes:0
+  int:BYTES:0
+  String:_sfdcAdditionalCodeLocations:0
+  int:MIN_EXPONENT:0
+  int[]:sizeTable:0
+  String:_static_REGION_ASIA:0
+  int:MAX_EXPONENT:0
+  String:_static_REGION_OCEANIA:0
+  int:SIZE:0
+  double:POSITIVE_INFINITY:0
+  double:MIN_NORMAL:0
+  int:BYTES:0
+
+11:58:07.182 (182272697)|CUMULATIVE_LIMIT_USAGE_END
+
+11:58:07.0 (183539701)|CODE_UNIT_FINISHED|LocalTimeUserTrigger on User trigger event BeforeUpdate for [005E0000004yLLO]
+11:58:07.238 (238543221)|ENTERING_MANAGED_PKG|skuid
+11:58:07.239 (239156377)|CUMULATIVE_LIMIT_USAGE
+11:58:07.239 (239156377)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:58:07.239 (239156377)|LIMIT_USAGE_FOR_NS|tz|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:58:07.239 (239156377)|CUMULATIVE_LIMIT_USAGE_END
+
+11:58:07.0 (241689784)|CODE_UNIT_STARTED|[EXTERNAL]|Workflow:User
+11:58:07.0 (246203911)|WF_RULE_EVAL_BEGIN|Workflow
+11:58:07.0 (246255751)|WF_CRITERIA_BEGIN|[User: Elissa Sadhana Team (WCI) 005E0000004yLLO]|Member_Community_New_User301V000000063fo|01QV00000001N6N|ON_CREATE_ONLY|0
+11:58:07.0 (246277380)|WF_RULE_NOT_EVALUATED
+11:58:07.0 (246290624)|WF_SPOOL_ACTION_BEGIN|Workflow
+11:58:07.0 (246304507)|WF_ACTION| None
+11:58:07.0 (246311099)|WF_RULE_EVAL_END
+11:58:07.0 (246363553)|WF_ACTIONS_END| None
+11:58:07.0 (246374898)|CODE_UNIT_FINISHED|Workflow:User
+11:58:07.0 (387468332)|CODE_UNIT_FINISHED|TRIGGERS
+11:58:07.0 (387488806)|EXECUTION_FINISHED
+11:58:07.407 (407160118)|CUMULATIVE_PROFILING_BEGIN
+11:58:07.407 (407160118)|CUMULATIVE_PROFILING|SOQL operations|
+(tz): [SELECT tz__Country__c FROM tz__lt_country_names__mdt WHERE MasterLabel = :countryCode]: executed 2 times in 25 ms
+
+11:58:07.407 (407160118)|CUMULATIVE_PROFILING|No profiling information for SOSL operations
+11:58:07.407 (407160118)|CUMULATIVE_PROFILING|No profiling information for DML operations
+11:58:07.407 (407160118)|CUMULATIVE_PROFILING|method invocations|
+Trigger.LocalTimeUserTrigger: line 10, column 1: webService static String getOffsetFull(String, String, String): executed 2 times in 25 ms
+External entry point: public void invoke(): executed 1 time in 20 ms
+Trigger.LocalTimeUserTrigger: line 7, column 1: global public System.Iterator iterator(): executed 6 times in 0 ms
+Trigger.LocalTimeUserTrigger: line 12, column 1: global static Object deserializeUntyped(String): executed 2 times in 0 ms
+Trigger.LocalTimeUserTrigger: line 13, column 1: global public Object get(Object): executed 2 times in 0 ms
+
+11:58:07.407 (407160118)|CUMULATIVE_PROFILING_END

@@ -1,0 +1,4 @@
+<design:component label="WorldCare_Default">
+    <design:attribute name="communityLogo" label="Community Logo Name"/>
+	<design:attribute name="footerText" label="Footer Text"/>
+</design:component>

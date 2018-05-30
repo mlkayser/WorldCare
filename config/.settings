@@ -1,0 +1,17 @@
+{
+    "projectName": "WorldCare",
+    "username": "manuelaworldcare@sadhanaconsulting.com.devfull",
+    "id": "66135ef0-c623-11e7-9575-f544660b9a80",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://cs12.salesforce.com",
+    "workspace": "/Users/manuela/Development",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

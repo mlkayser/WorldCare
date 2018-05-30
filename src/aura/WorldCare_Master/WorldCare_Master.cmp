@@ -1,0 +1,45 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" description="WorldCare Master Theme" controller="customProfileMenuController">
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+	<aura:attribute name="runningUser" type="User" />
+    <aura:attribute name="profileMenu" type="Aura.Component[]" required="false"/>    
+    <aura:attribute name="communityLogo" type="String" default="worldcarelogo" />
+    <aura:attribute name="navBar" type="Aura.Component[]" required="false"/>
+
+    <aura:attribute name="universalFooter" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="footerText" type="String" default="Worldcare International, Inc." />
+    <aura:attribute name="copyrightDate" type="Date" />
+    
+    <div>
+        <div class="topMastRegion">
+            <div class="container_inner">
+                <div class="universalBrand">
+                    <a href="{!v.runningUser.Logout_URL__c}" title="Back to NaviGo">
+                        <img src="{!'/sfsites/c/resource/' + v.communityLogo}"/>                        
+                        <!--img src="{!$Resource.(v.communityLogo)}"/-->      
+                    </a>
+                   
+                    <!--img src="{!'/sfsites/c/resource/' + v.communityLogo}"/-->                        
+                </div>                
+		        <!--div class="searchRegion">{!v.search}</div-->
+                <div class="profileMenu">{!v.profileMenu}</div>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="container_inner">{!v.navBar}</div>
+        </div>
+        <div class="mainContentArea">
+            <div class="container_inner">{!v.body}</div>
+        </div>
+        <div class="universalFooter">
+            <div class="container_inner">
+                {!v.universalFooter}
+            </div>
+            <div class="copyRight">
+                <div class="copyRightText"> 
+                    Copyright &copy; {!v.copyrightDate} - {!v.footerText}
+                </div> 
+            </div>
+        </div>
+    </div>
+</aura:component>

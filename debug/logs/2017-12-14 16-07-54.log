@@ -1,0 +1,123 @@
+41.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+16:07:53.0 (113873)|USER_INFO|[EXTERNAL]|005E0000004yLLO|worldcare@sadhanaconsulting.com.devfull|Eastern Standard Time|GMT-05:00
+16:07:53.0 (179215)|EXECUTION_STARTED
+16:07:53.0 (187112)|CODE_UNIT_STARTED|[EXTERNAL]|066V0000000E94F|VF: /apex/ReportDetail
+16:07:53.0 (2535485)|SYSTEM_MODE_ENTER|true
+16:07:53.0 (2935514)|HEAP_ALLOCATE|[72]|Bytes:3
+16:07:53.0 (2987206)|HEAP_ALLOCATE|[77]|Bytes:152
+16:07:53.0 (3020366)|HEAP_ALLOCATE|[342]|Bytes:408
+16:07:53.0 (3056094)|HEAP_ALLOCATE|[355]|Bytes:408
+16:07:53.0 (3091889)|HEAP_ALLOCATE|[467]|Bytes:48
+16:07:53.0 (3144939)|HEAP_ALLOCATE|[139]|Bytes:6
+16:07:53.0 (3181226)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:84
+16:07:53.0 (3195629)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:3
+16:07:53.0 (3213436)|METHOD_ENTRY|[1]|01pV0000000LP3I|GetReportDetail.GetReportDetail()
+16:07:53.0 (3223822)|STATEMENT_EXECUTE|[1]
+16:07:53.0 (3231750)|STATEMENT_EXECUTE|[1]
+16:07:53.0 (3268000)|HEAP_ALLOCATE|[50]|Bytes:5
+16:07:53.0 (3296511)|HEAP_ALLOCATE|[56]|Bytes:5
+16:07:53.0 (3309284)|HEAP_ALLOCATE|[64]|Bytes:7
+16:07:53.0 (3347856)|SYSTEM_MODE_ENTER|false
+16:07:53.0 (3370279)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+16:07:53.0 (3386120)|SYSTEM_MODE_EXIT|false
+16:07:53.0 (3408611)|METHOD_EXIT|[1]|GetReportDetail
+16:07:53.0 (3437073)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+16:07:53.0 (3459827)|VARIABLE_SCOPE_BEGIN|[5]|this|GetReportDetail|true|false
+16:07:53.0 (3527563)|VARIABLE_ASSIGNMENT|[5]|this|{}|0x40b7ff08
+16:07:53.0 (3556515)|SYSTEM_MODE_ENTER|false
+16:07:53.0 (3567025)|HEAP_ALLOCATE|[7]|Bytes:5
+16:07:53.0 (3573224)|STATEMENT_EXECUTE|[1]
+16:07:53.0 (3583262)|HEAP_ALLOCATE|[7]|Bytes:5
+16:07:53.0 (3588169)|STATEMENT_EXECUTE|[3]
+16:07:53.0 (3599433)|HEAP_ALLOCATE|[7]|Bytes:6
+16:07:53.0 (3659860)|STATEMENT_EXECUTE|[5]
+16:07:53.0 (3663106)|STATEMENT_EXECUTE|[7]
+16:07:53.0 (3667162)|HEAP_ALLOCATE|[7]|Bytes:4
+16:07:53.0 (4113757)|HEAP_ALLOCATE|[7]|Bytes:4
+16:07:53.0 (4163595)|LIMIT_USAGE|[7]|RECORD_TYPE_DESCRIBES|1|100
+16:07:53.0 (6245973)|HEAP_ALLOCATE|[7]|Bytes:40
+16:07:53.0 (6271452)|VARIABLE_SCOPE_BEGIN|[7]|recordTypes|Map<String,Schema.RecordTypeInfo>|true|false
+16:07:53.0 (6304639)|VARIABLE_ASSIGNMENT|[7]|recordTypes|"Map of size 9 too large to display"|0x6011b904
+16:07:53.0 (6315592)|STATEMENT_EXECUTE|[8]
+16:07:53.0 (6322174)|HEAP_ALLOCATE|[8]|Bytes:12
+16:07:53.0 (6508776)|HEAP_ALLOCATE|[8]|Bytes:4
+16:07:53.0 (6526852)|VARIABLE_SCOPE_BEGIN|[8]|standardRecTypeId|Id|false|false
+16:07:53.0 (6748316)|VARIABLE_ASSIGNMENT|[8]|standardRecTypeId|"012E0000000NFJoIAO"
+16:07:53.0 (6762043)|STATEMENT_EXECUTE|[10]
+16:07:53.0 (6769543)|HEAP_ALLOCATE|[11]|Bytes:169
+16:07:53.0 (6795841)|HEAP_ALLOCATE|[11]|Bytes:4
+16:07:53.0 (6817632)|HEAP_ALLOCATE|[11]|Bytes:7
+16:07:53.0 (7436204)|SOQL_EXECUTE_BEGIN|[11]|Aggregations:0|SELECT CaseNumber, MRN__c, Subject, Initial_Diagnosis__c, Status, CreatedDate, Id FROM Case WHERE RecordTypeId = :tmpVar1 ORDER BY CreatedDate DESC NULLS FIRST LIMIT 100
+16:07:53.0 (7454738)|LIMIT_USAGE|[11]|SOQL|1|100
+16:07:53.0 (7467995)|LIMIT_USAGE|[11]|AGGS|0|300
+16:07:53.0 (25763362)|SOQL_EXECUTE_END|[11]|Rows:100
+16:07:53.0 (25788239)|LIMIT_USAGE|[11]|SOQL_ROWS|100|50000
+16:07:53.0 (25815653)|HEAP_ALLOCATE|[11]|Bytes:404
+16:07:53.0 (25973633)|HEAP_ALLOCATE|[11]|Bytes:18255
+16:07:53.0 (26032806)|HEAP_ALLOCATE|[11]|Bytes:404
+16:07:53.0 (26168254)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{}|0x40b7ff08
+16:07:53.0 (26193369)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"List of size 100 too large to display"|0x5db755fb
+16:07:53.0 (26212091)|VARIABLE_ASSIGNMENT|[3]|this.Records|"List of size 100 too large to display"|0x40b7ff08
+16:07:53.0 (26230762)|SYSTEM_MODE_EXIT|false
+16:07:53.0 (26335872)|SYSTEM_MODE_ENTER|true
+16:07:53.155 (155603727)|CUMULATIVE_LIMIT_USAGE
+16:07:53.155 (155603727)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 100 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:07:53.155 (155603727)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+16:07:53.155 (155603727)|STATIC_VARIABLE_LIST|
+  char[]:DigitTens:0
+  long:serialVersionUID:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MAX_VALUE:0
+  Boolean:FALSE:0
+  long:serialVersionUID:0
+  double:MIN_VALUE:0
+  int:SIZE:0
+  double:NEGATIVE_INFINITY:0
+  int:MAX_VALUE:0
+  char[]:digits:0
+  double:NaN:0
+  Boolean:TRUE:0
+  int:MIN_VALUE:0
+  char[]:DigitOnes:0
+  String:_sfdcAdditionalCodeLocations:0
+  int:BYTES:0
+  int:MIN_EXPONENT:0
+  int[]:sizeTable:0
+  int:MAX_EXPONENT:0
+  String:__sfdcProperties:0
+  int:SIZE:0
+  double:POSITIVE_INFINITY:0
+  double:MIN_NORMAL:0
+  int:BYTES:0
+
+16:07:53.155 (155603727)|CUMULATIVE_LIMIT_USAGE_END
+
+16:07:53.0 (155759947)|CODE_UNIT_FINISHED|VF: /apex/ReportDetail
+16:07:53.0 (157083340)|EXECUTION_FINISHED
+16:07:53.159 (159692361)|CUMULATIVE_PROFILING_BEGIN
+16:07:53.159 (159692361)|CUMULATIVE_PROFILING|SOQL operations|
+Class.GetReportDetail.<init>: line 11, column 1: [select CaseNumber, MRN__c, Subject,Initial_Diagnosis__c, Status,CreatedDate, Id from Case where RecordTypeId =: standardRecTypeId ORDER BY CreatedDate DESC limit 100 ]: executed 1 time in 19 ms
+
+16:07:53.159 (159692361)|CUMULATIVE_PROFILING|No profiling information for SOSL operations
+16:07:53.159 (159692361)|CUMULATIVE_PROFILING|No profiling information for DML operations
+16:07:53.159 (159692361)|CUMULATIVE_PROFILING|method invocations|
+External entry point: public void <init>(): executed 1 time in 23 ms
+Class.GetReportDetail.<init>: line 7, column 1: global Schema.DescribeSObjectResult getDescribe(): executed 1 time in 0 ms
+Class.GetReportDetail.<init>: line 8, column 1: global public Object get(Object): executed 1 time in 0 ms
+Class.GetReportDetail.<init>: line 10, column 1: public void __sfdc_Records(List<Case>): executed 1 time in 0 ms
+
+16:07:53.159 (159692361)|CUMULATIVE_PROFILING_END

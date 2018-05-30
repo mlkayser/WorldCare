@@ -1,0 +1,5 @@
+<apex:page standardController="Case" extensions="skuid.Redirects" 
+       showHeader="true" sidebar="false" readonly="true" docType="html-5.0"
+       action="{!IF(canUseSkuid,'',redirect)}" title="{!Case.Subject}">
+       <skuid:page page="{!IF(OR(Case.Type='PMC Request', Case.Type='TPC Request',Case.Type='TRC Request',Case.Type='Hospital Case'),'',IF(Case.Type='HSN','HSNCase_View','SkuidPatientCase'))}" />
+</apex:page>

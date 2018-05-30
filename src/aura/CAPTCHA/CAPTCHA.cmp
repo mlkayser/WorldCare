@@ -1,0 +1,12 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes" access="global" >  
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <div >
+		<form >
+            <div style="background-color:#f7f7f7;">
+                <iframe style="height: 500px;background-color:#f7f7f7;" aura:id="vfFrame" src="https://c.cs12.visual.force.com/apex/reCAPTCHA" crolling="no" frameborder="0" width="100%" allowtransparency="true"/>
+            </div>
+        </form>
+    </div>
+</aura:component>

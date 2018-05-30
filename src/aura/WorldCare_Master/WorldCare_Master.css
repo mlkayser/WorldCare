@@ -1,0 +1,190 @@
+/* Basic Styles*/
+
+.THIS body {
+    font-family: 'Montserrat', sans-serif;
+  	font-style: normal;
+  	font-weight: 200;
+}
+
+.THIS h1 {
+    color: #333;
+    font-size: 34px;
+    font-weight: normal !important;
+}
+
+.THIS p.headlineInfo {
+    font-size: 18px;
+    line-height: 1.25em;
+}
+
+.THIS h2 {
+    color: #943980;
+    font-size: 26px;
+    line-height: 1.4em;
+    font-weight: 400 !important;   
+	font-style: normal !important;
+    font-weight: normal !important;
+}
+
+.THIS h3 {
+    font-weight: bold;
+}
+
+.THIS .container_inner {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.THIS .forceCommunityCreateRecordForm .headerLabel {
+    display: none;
+}
+
+
+/* HEADER Sub Section */
+
+.THIS .topMastRegion {
+    position: relative;
+    height: 86px;
+}
+
+/* BRANDING BLOCK */
+
+.THIS .universalBrand {
+    float: left;
+    /*background-image:url("https://c.na38.content.force.com/servlet/servlet.ImageServer?id=0154400000A9nqU&oid=00DE0000000eOEy");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    max-width: 265px;
+    max-height: 85px;
+    width: 265px;
+    height: 85px;  
+}
+.THIS .universalBrand a {
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+/* PROFILE BLOCK */
+
+.THIS .profileMenu {
+    float: right;
+    /*(margin-right: -20px;*/ /* modified by Manuela */
+    /*width: 275px;*/ /* modified by Manuela */
+    height: 55px;
+    padding-top: 30px;
+}
+
+.THIS .profileMenu a {
+	font-size: 14px;
+    color: #777;
+    text-shadow: none !important;
+}
+
+/*.THIS .selfServiceProfileMenuTrigger .profileName {*/
+.THIS .profileName { /* added by Manuela */
+    font-weight: 100 !important;
+}
+
+/* NAVIGATION Section */
+
+.THIS .navigation {
+    border-top: 1px solid #eaeaea !important;
+    border-bottom: 1px solid #eaeaea !important;
+    background: #fff  !important;
+}
+
+.THIS .comm-navigation.forceCommunityGlobalNavigation {
+    background: none;
+}
+
+.THIS .forceCommunityGlobalNavigation a {
+    background: none !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    color: #777 !important;	
+    text-transform: none !important;
+}
+
+.THIS .slds-has-flexi-truncate {
+    float: right !important;
+}
+
+/* FOOTER Section */
+
+.THIS .universalFooter {
+    /*position: absolute;
+    bottom: 0;*/
+    width: 100%;
+    background-color: #2b2b2b; 
+}
+
+.THIS .universalFooter .container_inner {
+	margin: 0 auto; 
+    padding: 60px 0; 
+    width: 1140px; 
+    font-size: 13px !important; 
+    color:#777 !important; 
+    line-height: 22px !important;
+}
+
+.THIS .universalFooter .container_inner a {
+ 	color: #fff !important;   
+}
+
+.THIS .copyRight {
+    background-color: #2b2b2b; 
+    border-top: 1px solid #000;
+}
+
+.THIS .copyRightText {
+    margin: 0 auto; 
+    border-top: 1px solid #3d3d3d;
+    padding: 16px 0 16px 0; 
+    text-align: center; 
+    font-size: 13px !important; 
+    color:#8F8F8F !important;
+}
+
+/* CONTENT DESIGN */
+
+.THIS .forceCommunityCreateRecordButton button, .THIS .forceCommunityCreateRecordButton .triggerLink {
+	font-size: 14px !important;
+	text-transform: uppercase !important;
+    border-radius: 5px !important;
+    font-weight: 400 !important;
+    color: #fff !important;
+}
+    
+.THIS .forceCommunityCreateRecordButton button span {    
+    text-shadow: 1px 1px 2px #555 !important;
+}
+
+.THIS .cMyCaseTeamWidget p {
+    font-size: 13px !important;
+    line-height: 22px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+}
+
+/* Register and Login Styles */
+
+.THIS .salesforceIdentityLoginBody2 .cCenterPanel#centerPanel {
+    min-width: 280px !important;
+    max-width: 960px !important;
+    border: 1px solid red;
+}
+
+.THIS .salesforceIdentityLoginBody2 #content h2 {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    color: #800080 !important;
+}
+
+.THIS .salesforceIdentityLoginBody2 .ui-widget {
+    padding-bottom: 0 !important;
+}
+
+.THIS #sfdc_forgot a {
+    color: #800080 !important;
+}
